@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+header {
+    border: solid 1px red;
+    margin: auto;
+}
+/* Alert Bar Styles */
+.alert-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #fdb715;
+}
+.alert-bar button {
+    margin: 10px 10px 10px 5px; /* top right bottom left*/
+    background-color: #434345;
+    color: white;
+}
+.alert-bar p {
+    font-size: 14px;
+}
+.alert-bar img {
+    width: 16px;
+    height: 16px;
+}
