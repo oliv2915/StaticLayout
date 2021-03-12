@@ -63,7 +63,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: solid 1px green;
 }
 .navbar li {
     float: left;
@@ -74,7 +73,17 @@ body {
     text-align: center;
     text-decoration: none;
     padding: 26px 8px 26px 10px;
+    text-transform: uppercase;
 }
 .navbar li a:hover {
     background-color: black;
+}
+/* Search Styles */
+.search {
+    background-image: url(./assets/iconfinder_icon-search.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
 }
