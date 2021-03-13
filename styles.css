@@ -58,6 +58,9 @@ body {
     margin: auto;
 }
 /* Navbar Styles */
+.navbar-wrapper {
+    padding-left: 45px;
+}
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -86,4 +89,24 @@ body {
     width: 30px;
     height: 30px;
     margin-top: 20px;
+}
+/* White Bar Styles */
+.white-bar {
+    background-color: white;
+    width: 5px;
+}
+/* Schedule Meeting & Apply Now Styles */
+.schedule-meeting {
+    background-color: #348db9;
+}
+.apply-now {
+    background-color: #e33e42;
+}
+.schedule-meeting a, .apply-now a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 26px 8px 26px 10px;
 }
