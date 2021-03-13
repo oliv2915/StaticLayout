@@ -138,8 +138,41 @@ body {
 .middle-group a {
     background-color: #e33e42;
     padding: 10px 8px 10px 8px;
-    display: inline-block;
     text-decoration: none;
     color: white;
-    margin: 0 0 16.5px;
+}
+/* Course and Styles */
+.course-info a {
+    text-decoration: none;
+    color: black;;
+    background-color: #efefef;
+}
+.course-info h1 {
+    text-align: center;
+    color: #348db9;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 55px;   
+}
+.course-boxes {
+    display: flex;
+    justify-content: center;
+}
+.course-boxes .boxes {
+    width: 304px;
+    height: 381px;
+}
+.boxes {
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 15px;
+}
+.box-content {
+    height: 334px;
+}
+.box-signup-btn {
+    margin-top: 45px;
+    padding: 15px 25px 25px 10px;
+    background-color: #e33e42;
+    text-align: center;
 }
