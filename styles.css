@@ -122,8 +122,8 @@ body {
 }
 .middle-group {
     position: absolute;
-    margin-top: 200px;
-    margin-left: 600px;
+    top: 350px;
+    left: 500px;
     text-transform: uppercase;
     font-size: 21px;
     font-weight: 900;
@@ -152,40 +152,64 @@ body {
     color: #348db9;
     font-size: 60px;
 }
-#course-info a {
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: stretch; */
+}
+.box {
+    display: flex;
+    width: 480px;
+    height: 420px;
+    margin: auto;
+    background-color: #ffffff;
+}
+.box a {
     text-decoration: none;
     color: #2d2d2d;
 }
-#course-info .boxes {
-    display: flex;
-    justify-content: space-evenly;
-}
-#course-info .box-header {
+.box-header {
     font-size: 36px;
 }
-#course-info .box-content {
+.box-content {
     font-size: 21px;
 }
-#course-info .box-header, #course-info .box-content{
-    padding: 25px;
-    margin: auto;
+.box-content,
+.box-header {
+    padding: 30px;
 }
-#course-info .box {
-    width: 380px;
-    background-color: #ffffff;
-}
-#course-info .box-btn {
+.box-btn {
     background-color: #e33e42;
     color: #ffffff;
-    height: 52px;
     text-align: center;
 }
-#course-info .box-btn p {
+.box-btn p {
     padding-top: 17px;
     padding-bottom: 16px;
 }
 /* Tech Section Styles */
 .tech-section {
-    border: solid 1px red;
     height: 413px;
+    display: flex;
+    margin: auto;
+}
+.tech-wrapper {
+    display: flex;
+    margin: auto;
+}
+.tech-logo {
+    width: 200px;
+    height: 233px;
+}
+.tech-message {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 715px;
+}
+.tech-message h2 {
+    color: #348db9;
+}
+.tech-message p {
+    color: #676767;
 }
