@@ -141,38 +141,51 @@ body {
     text-decoration: none;
     color: white;
 }
-/* Course and Styles */
-.course-info a {
-    text-decoration: none;
-    color: black;;
+/* Course Information Styles */
+#course-info {
     background-color: #efefef;
+    display: flex;
+    flex-direction: column;
 }
-.course-info h1 {
+#course-info h1 {
     text-align: center;
     color: #348db9;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 55px;   
+    font-size: 60px;
 }
-.course-boxes {
+#course-info a {
+    text-decoration: none;
+    color: #2d2d2d;
+}
+#course-info .boxes {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-.course-boxes .boxes {
-    width: 304px;
-    height: 381px;
+#course-info .box-header {
+    font-size: 36px;
 }
-.boxes {
-    background-color: whitesmoke;
-    margin: 10px;
-    padding: 15px;
+#course-info .box-content {
+    font-size: 21px;
 }
-.box-content {
-    height: 334px;
+#course-info .box-header, #course-info .box-content{
+    padding: 25px;
+    margin: auto;
 }
-.box-signup-btn {
-    margin-top: 45px;
-    padding: 15px 25px 25px 10px;
+#course-info .box {
+    width: 380px;
+    background-color: #ffffff;
+}
+#course-info .box-btn {
     background-color: #e33e42;
+    color: #ffffff;
+    height: 52px;
     text-align: center;
+}
+#course-info .box-btn p {
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+/* Tech Section Styles */
+.tech-section {
+    border: solid 1px red;
+    height: 413px;
 }
